@@ -13,6 +13,7 @@ import com.alibaba.fastjson.JSONObject;
  */
 
 public class PostAnswer {
+    //token
     private static String request="{\"teamid\": 12,\"token\": \"ea091bf6-9d3b-4cc2-9b43-2b72fff9726d\"}";
     private static String challenge_uuid="7355452d-bc6d-4df6-a567-3301d2f0959d";
     private static String ans="{\"uuid\":\""+JSONAnalysis.uuid+"\",\"answer\":{\"operations\": \""
