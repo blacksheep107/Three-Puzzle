@@ -1,0 +1,8 @@
+<!--pages/index/his_sco.wxml-->
+<view class="content">
+	<!--pics文件夹下的background.jpg文件-->
+	<image class='background' src="../../images/111.jpg" mode="aspectFill"></image>
+	<!--页面其它部分-->
+</view>
+<view bindtap="history" class="f_center score">戳一戳</view>
+<block wx:for="{{history}}" wx:key="{{index}}"><text>{{item}}</text></block>

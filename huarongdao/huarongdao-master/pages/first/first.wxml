@@ -1,0 +1,6 @@
+<!--pages/first/first.wxml-->
+<view class="f_center title"><image class='huarongdao' src="../../images/hrd.png"></image></view>
+<view bindtap="ck" class="f_center start"><image class='st' src="../../images/start_.png"></image></view>
+<view class="content">
+	<image class='background' src="../../images/111.jpg" mode="aspectFill"></image>
+</view>
